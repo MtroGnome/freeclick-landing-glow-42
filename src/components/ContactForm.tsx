@@ -13,8 +13,8 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     
     toast({
-      title: "Message Sent!",
-      description: "We'll be in touch with you shortly.",
+      title: "¡Mensaje Enviado!",
+      description: "Te contactaremos pronto.",
     });
   };
 
@@ -22,12 +22,12 @@ const ContactForm: React.FC = () => {
     <section id="contact" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-blue-600 font-medium mb-2 reveal">CONTACT US</p>
+          <p className="text-blue-600 font-medium mb-2 reveal">CONTÁCTANOS</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 reveal">
-            Let's <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Connect</span>
+            Vamos a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Conectar</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-600 reveal">
-            Ready to take your marketing to the next level? Get in touch with our team of experts today.
+            ¿Listo para llevar tu marketing al siguiente nivel? Ponte en contacto con nuestro equipo de expertos hoy.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Email</h4>
-                    <p className="text-white/80">info@freeclickllc.com</p>
+                    <p className="text-white/80">info@hydramarketing.com</p>
                   </div>
                 </div>
                 
@@ -63,14 +63,14 @@ const ContactForm: React.FC = () => {
                     <MapPin className="h-6 w-6 text-orange-400" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg">Location</h4>
-                    <p className="text-white/80">123 Marketing Street, Digital City, DC 10001</p>
+                    <h4 className="font-medium text-lg">Ubicación</h4>
+                    <p className="text-white/80">123 Calle Marketing, Ciudad Digital, CD 10001</p>
                   </div>
                 </div>
               </div>
               
               <div className="mt-12">
-                <h4 className="text-lg font-medium mb-4">Follow Us</h4>
+                <h4 className="text-lg font-medium mb-4">Síguenos</h4>
                 <div className="flex space-x-4">
                   <a href="#" className="bg-white/10 hover:bg-white/20 transition-colors w-10 h-10 rounded-full flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -102,44 +102,44 @@ const ContactForm: React.FC = () => {
           
           {/* Right part - Contact form */}
           <div className="bg-white rounded-2xl shadow-lg p-8 reveal">
-            <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
+            <h3 className="text-2xl font-bold mb-6">Envíanos un Mensaje</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="firstName">First Name</Label>
-                  <Input id="firstName" placeholder="John" required />
+                  <Label htmlFor="firstName">Nombre</Label>
+                  <Input id="firstName" placeholder="Juan" required />
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="lastName">Last Name</Label>
-                  <Input id="lastName" placeholder="Doe" required />
+                  <Label htmlFor="lastName">Apellido</Label>
+                  <Input id="lastName" placeholder="Pérez" required />
                 </div>
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="email">Email Address</Label>
-                <Input id="email" type="email" placeholder="john.doe@example.com" required />
+                <Label htmlFor="email">Correo Electrónico</Label>
+                <Input id="email" type="email" placeholder="juan.perez@ejemplo.com" required />
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="subject">Subject</Label>
-                <Input id="subject" placeholder="How can we help you?" required />
+                <Label htmlFor="subject">Asunto</Label>
+                <Input id="subject" placeholder="¿Cómo podemos ayudarte?" required />
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">Mensaje</Label>
                 <textarea
                   id="message"
                   className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                  placeholder="Tell us more about what you're looking for..."
+                  placeholder="Cuéntanos más sobre lo que estás buscando..."
                   rows={5}
                   required
                 ></textarea>
               </div>
               
               <Button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:opacity-90 text-white">
-                Send Message
+                Enviar Mensaje
               </Button>
             </form>
           </div>

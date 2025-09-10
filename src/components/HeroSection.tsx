@@ -17,18 +17,18 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
-              Elevate Your Digital Presence with <span className="text-orange-500">free</span>click
+              Eleva tu Presencia Digital con <span className="text-orange-500">Hydra</span> Marketing
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Strategic marketing solutions to boost your brand's visibility, engage your audience, and drive conversions.
+              Soluciones de marketing estratégico para potenciar la visibilidad de tu marca, involucrar a tu audiencia y generar conversiones.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <Button className="bg-gradient-to-r from-orange-500 to-orange-400 hover:opacity-90 text-white group px-6 py-6">
-                Get Started
+                Comenzar
                 <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" className="bg-white/20 text-white hover:bg-white/30 border-white/40">
-                Learn More
+                Saber Más
               </Button>
             </div>
           </div>
@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
             <div className="relative">
               <div className="w-[350px] h-[350px] bg-white/90 shadow-2xl backdrop-blur-md rounded-3xl relative z-10 p-6 animate-float">
                 <div className="h-1/2 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-t-2xl flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">Marketing Dashboard</h3>
+                  <h3 className="text-2xl font-bold text-white">Dashboard de Marketing</h3>
                 </div>
                 <div className="h-1/2 bg-white p-4 rounded-b-2xl flex flex-col justify-between">
                   <div className="space-y-2">

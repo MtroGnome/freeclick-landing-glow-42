@@ -2,44 +2,51 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Mail, Globe, PenTool, BarChart, Share2 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const FeaturesSection: React.FC = () => {
   const services = [
     {
-      title: "Strategic SEO",
-      description: "Boost your search rankings and drive more organic traffic with data-driven SEO strategies.",
+      title: "SEO Estratégico",
+      description: "Mejora tu posicionamiento en buscadores y genera más tráfico orgánico con estrategias SEO basadas en datos.",
       icon: TrendingUp,
       color: "from-blue-400 to-blue-600",
+      link: "/servicios/seo",
     },
     {
-      title: "Content Marketing",
-      description: "Create compelling content that engages your audience and establishes your brand as an industry leader.",
+      title: "Marketing de Contenidos",
+      description: "Crea contenido atractivo que involucre a tu audiencia y establezca tu marca como líder en la industria.",
       icon: PenTool,
       color: "from-cyan-400 to-cyan-600",
+      link: "/servicios/marketing-contenidos",
     },
     {
-      title: "Social Media",
-      description: "Build a powerful social presence that connects with your audience and drives meaningful engagement.",
+      title: "Redes Sociales",
+      description: "Construye una presencia social poderosa que conecte con tu audiencia y genere compromiso significativo.",
       icon: Share2,
       color: "from-purple-400 to-purple-600",
+      link: "/servicios/redes-sociales",
     },
     {
-      title: "Email Campaigns",
-      description: "Design targeted email campaigns that nurture leads and convert prospects into loyal customers.",
+      title: "Campañas de Email",
+      description: "Diseña campañas de email dirigidas que nutran leads y conviertan prospectos en clientes leales.",
       icon: Mail,
       color: "from-red-400 to-red-600",
+      link: "/servicios/email-marketing",
     },
     {
-      title: "PPC Advertising",
-      description: "Maximize your ROI with strategic pay-per-click campaigns that target your ideal customers.",
+      title: "Publicidad PPC",
+      description: "Maximiza tu ROI con campañas estratégicas de pago por clic que se dirijan a tus clientes ideales.",
       icon: Globe,
       color: "from-green-400 to-green-600",
+      link: "/servicios/publicidad-ppc",
     },
     {
-      title: "Analytics & Reporting",
-      description: "Get actionable insights with comprehensive analytics and reporting to refine your marketing strategy.",
+      title: "Analítica y Reportes",
+      description: "Obtén insights accionables con analítica integral y reportes para refinar tu estrategia de marketing.",
       icon: BarChart,
       color: "from-orange-400 to-orange-500",
+      link: "/servicios/analytics",
     },
   ];
 
@@ -47,13 +54,13 @@ const FeaturesSection: React.FC = () => {
     <section id="services" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-blue-600 font-medium mb-2 reveal">OUR SERVICES</p>
+          <p className="text-blue-600 font-medium mb-2 reveal">NUESTROS SERVICIOS</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 reveal">
-            Comprehensive <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Marketing Solutions</span>
+            Soluciones de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Marketing Integrales</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-600 reveal">
-            We offer a full suite of digital marketing services designed to help your business 
-            reach new heights in the digital landscape.
+            Ofrecemos una suite completa de servicios de marketing digital diseñados para ayudar a tu negocio 
+            a alcanzar nuevas alturas en el panorama digital.
           </p>
         </div>
 
@@ -68,19 +75,21 @@ const FeaturesSection: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">{service.title}</h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
-              <Button 
-                variant="ghost" 
-                className="text-blue-500 hover:text-blue-700 hover:bg-blue-50 p-0"
-              >
-                Learn more &rarr;
-              </Button>
+              <Link to={service.link}>
+                <Button 
+                  variant="ghost" 
+                  className="text-blue-500 hover:text-blue-700 hover:bg-blue-50 p-0"
+                >
+                  Saber más &rarr;
+                </Button>
+              </Link>
             </div>
           ))}
         </div>
         
         <div className="mt-16 text-center reveal">
           <Button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:opacity-90 text-white px-8 py-6 rounded-lg">
-            Explore All Services
+            Explorar Todos los Servicios
           </Button>
         </div>
       </div>

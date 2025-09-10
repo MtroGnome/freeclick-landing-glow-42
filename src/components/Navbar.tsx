@@ -31,8 +31,11 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="/" className="text-2xl font-bold text-blue-900">
-            <span className="text-orange-500">free</span>click
+          <a href="/" className="flex items-center space-x-2">
+            <img src="/hydra-logo.png" alt="Hydra Marketing" className="h-8 w-auto" />
+            <span className="text-2xl font-bold text-blue-900">
+              <span className="text-orange-500">Hydra</span> Marketing
+            </span>
           </a>
         </div>
 
@@ -41,13 +44,13 @@ const Navbar: React.FC = () => {
             href="#services"
             className="text-gray-700 hover:text-blue-500 transition-colors"
           >
-            Services
+            Servicios
           </a>
           <a
             href="#about"
             className="text-gray-700 hover:text-blue-500 transition-colors"
           >
-            About
+            Acerca de
           </a>
           <a
             href="#blog"
@@ -59,10 +62,10 @@ const Navbar: React.FC = () => {
             href="#contact"
             className="text-gray-700 hover:text-blue-500 transition-colors"
           >
-            Contact
+            Contacto
           </a>
           <Button className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:opacity-90 text-white px-6 py-2">
-            Get Started
+            Comenzar
           </Button>
         </div>
 
@@ -86,14 +89,14 @@ const Navbar: React.FC = () => {
               className="text-gray-700 hover:text-blue-500 px-3 py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Services
+              Servicios
             </a>
             <a
               href="#about"
               className="text-gray-700 hover:text-blue-500 px-3 py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About
+              Acerca de
             </a>
             <a
               href="#blog"
@@ -107,10 +110,10 @@ const Navbar: React.FC = () => {
               className="text-gray-700 hover:text-blue-500 px-3 py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Contact
+              Contacto
             </a>
             <Button className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:opacity-90 text-white w-full">
-              Get Started
+              Comenzar
             </Button>
           </div>
         </div>

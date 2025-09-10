@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# Hydra Marketing - Sitio Web
 
-## Project info
+Este es el sitio web oficial de Hydra Marketing, una agencia de marketing digital especializada en ayudar a empresas a crecer en el mundo digital.
 
-**URL**: https://lovable.dev/projects/2d8a22f5-da92-4405-a958-2d97013a8836
+## Características
 
-## How can I edit this code?
+- Diseño moderno y responsivo
+- Componentes optimizados con React y TypeScript
+- Interfaz de usuario elegante con Tailwind CSS
+- Formularios de contacto interactivos
+- Animaciones suaves y efectos visuales
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/2d8a22f5-da92-4405-a958-2d97013a8836) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## Tecnologías Utilizadas
 
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+- Lucide React (iconos)
 
-## How can I deploy this project?
+## Desarrollo Local
 
-Simply open [Lovable](https://lovable.dev/projects/2d8a22f5-da92-4405-a958-2d97013a8836) and click on Share -> Publish.
+Para ejecutar este proyecto localmente:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+# Paso 1: Clonar el repositorio
+git clone <URL_DEL_REPOSITORIO>
 
-Yes, you can!
+# Paso 2: Navegar al directorio del proyecto
+cd <NOMBRE_DEL_PROYECTO>
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Paso 3: Instalar las dependencias necesarias
+npm i
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Paso 4: Iniciar el servidor de desarrollo
+npm run dev
+```
+
+## Estructura del Proyecto
+
+- `/src/components` - Componentes React reutilizables
+- `/src/pages` - Páginas principales del sitio
+- `/public` - Archivos estáticos y recursos
+- `/src/lib` - Utilidades y funciones auxiliares
+
+## Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run preview` - Vista previa de la construcción de producción
+- `npm run lint` - Ejecuta el linter para verificar el código
+
+## Contacto
+
+Para más información sobre Hydra Marketing, visita nuestro sitio web o contáctanos en info@hydramarketing.com

@@ -19,7 +19,7 @@ const AboutSection: React.FC = () => {
                 <div className="bg-gradient-to-br from-blue-400/30 to-blue-900/30 rounded-lg overflow-hidden aspect-video">
                   {/* This would be a real image in production */}
                   <div className="h-full w-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-xl">
-                    freeclick marketing team
+                    Hydra Marketing Team
                   </div>
                 </div>
               </div>
@@ -39,22 +39,22 @@ const AboutSection: React.FC = () => {
           
           {/* Right part - Text content */}
           <div className="lg:w-1/2">
-            <p className="text-blue-600 font-medium mb-2 reveal">ABOUT US</p>
+            <p className="text-blue-600 font-medium mb-2 reveal">ACERCA DE NOSOTROS</p>
             <h2 className="text-4xl font-bold mb-6 reveal">
-              We Drive <span className="text-orange-500">Meaningful</span> Results
+              Generamos Resultados <span className="text-orange-500">Significativos</span>
             </h2>
             
             <p className="text-gray-700 mb-6 reveal">
-              Freeclick LLC is a full-service marketing agency dedicated to helping businesses thrive 
-              in the digital landscape. We combine strategic thinking, creative excellence, and data-driven 
-              methodologies to create marketing solutions that deliver tangible results.
+              Hydra Marketing es una agencia de marketing digital de servicio completo dedicada a ayudar a las empresas a prosperar 
+              en el panorama digital. Combinamos pensamiento estratégico, excelencia creativa y metodologías basadas en datos 
+              para crear soluciones de marketing que generen resultados tangibles.
             </p>
             
             <p className="text-gray-700 mb-6 reveal">
-              Our team of seasoned marketing professionals brings diverse expertise across various 
-              industries and digital platforms. We pride ourselves on building lasting partnerships 
-              with our clients, truly understanding their unique needs, and crafting customized strategies 
-              that align with their business goals.
+              Nuestro equipo de profesionales de marketing experimentados aporta experiencia diversa en varias 
+              industrias y plataformas digitales. Nos enorgullecemos de construir asociaciones duraderas 
+              con nuestros clientes, entendiendo verdaderamente sus necesidades únicas y diseñando estrategias personalizadas 
+              que se alineen con sus objetivos comerciales.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
@@ -63,8 +63,8 @@ const AboutSection: React.FC = () => {
                   <span className="text-blue-600 font-bold">✓</span>
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Data-Driven Approach</h4>
-                  <p className="text-gray-600 text-sm">We make decisions based on real insights</p>
+                  <h4 className="font-bold mb-1">Enfoque Basado en Datos</h4>
+                  <p className="text-gray-600 text-sm">Tomamos decisiones basadas en insights reales</p>
                 </div>
               </div>
               
@@ -73,8 +73,8 @@ const AboutSection: React.FC = () => {
                   <span className="text-blue-600 font-bold">✓</span>
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Creative Excellence</h4>
-                  <p className="text-gray-600 text-sm">Innovative solutions that capture attention</p>
+                  <h4 className="font-bold mb-1">Excelencia Creativa</h4>
+                  <p className="text-gray-600 text-sm">Soluciones innovadoras que capturan la atención</p>
                 </div>
               </div>
               
@@ -83,8 +83,8 @@ const AboutSection: React.FC = () => {
                   <span className="text-blue-600 font-bold">✓</span>
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Client-Focused</h4>
-                  <p className="text-gray-600 text-sm">Your success is our primary objective</p>
+                  <h4 className="font-bold mb-1">Enfoque en el Cliente</h4>
+                  <p className="text-gray-600 text-sm">Tu éxito es nuestro objetivo principal</p>
                 </div>
               </div>
               
@@ -93,14 +93,14 @@ const AboutSection: React.FC = () => {
                   <span className="text-blue-600 font-bold">✓</span>
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Transparent Communication</h4>
-                  <p className="text-gray-600 text-sm">Clear reporting and honest insights</p>
+                  <h4 className="font-bold mb-1">Comunicación Transparente</h4>
+                  <p className="text-gray-600 text-sm">Reportes claros e insights honestos</p>
                 </div>
               </div>
             </div>
             
             <Button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:opacity-90 text-white px-6 py-2 rounded-lg reveal">
-              Learn Our Story
+              Conoce Nuestra Historia
             </Button>
           </div>
         </div>

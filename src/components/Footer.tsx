@@ -8,12 +8,15 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company info */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">
-              <span className="text-orange-500">free</span>click
-            </h2>
+            <div className="flex items-center mb-6">
+              <img src="/hydra-logo.png" alt="Hydra Marketing" className="h-8 w-auto mr-2" />
+              <h2 className="text-2xl font-bold">
+                <span className="text-orange-500">Hydra</span> Marketing
+              </h2>
+            </div>
             <p className="text-white/70 mb-6">
-              Strategic marketing solutions to elevate your brand, 
-              engage your audience, and drive conversions.
+              Soluciones de marketing estratégico para elevar tu marca, 
+              involucrar a tu audiencia y generar conversiones.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-white/10 hover:bg-white/20 transition-colors w-10 h-10 rounded-full flex items-center justify-center">
@@ -36,55 +39,55 @@ const Footer: React.FC = () => {
           
           {/* Company Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Company</h3>
+            <h3 className="text-lg font-semibold mb-6">Empresa</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#about" className="text-white/70 hover:text-white transition-colors">About Us</a>
+                <a href="#about" className="text-white/70 hover:text-white transition-colors">Acerca de Nosotros</a>
               </li>
               <li>
-                <a href="#services" className="text-white/70 hover:text-white transition-colors">Services</a>
+                <a href="#services" className="text-white/70 hover:text-white transition-colors">Servicios</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">Our Work</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Nuestro Trabajo</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">Careers</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Carreras</a>
               </li>
               <li>
-                <a href="#contact" className="text-white/70 hover:text-white transition-colors">Contact</a>
+                <a href="#contact" className="text-white/70 hover:text-white transition-colors">Contacto</a>
               </li>
             </ul>
           </div>
           
           {/* Services Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
+            <h3 className="text-lg font-semibold mb-6">Servicios</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">SEO Optimization</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Optimización SEO</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">Content Marketing</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Marketing de Contenidos</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">Social Media</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Redes Sociales</a>
               </li>
               <li>
                 <a href="#" className="text-white/70 hover:text-white transition-colors">Email Marketing</a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white transition-colors">PPC Advertising</a>
+                <a href="#" className="text-white/70 hover:text-white transition-colors">Publicidad PPC</a>
               </li>
             </ul>
           </div>
           
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-6">Contáctanos</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-orange-400 mr-3">📍</span>
-                <span className="text-white/70">123 Marketing Street, Digital City, DC 10001</span>
+                <span className="text-white/70">123 Calle Marketing, Ciudad Digital, CD 10001</span>
               </li>
               <li className="flex items-start">
                 <span className="text-orange-400 mr-3">📞</span>
@@ -92,11 +95,11 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-orange-400 mr-3">✉️</span>
-                <span className="text-white/70">info@freeclickllc.com</span>
+                <span className="text-white/70">info@hydramarketing.com</span>
               </li>
               <li className="flex items-start">
                 <span className="text-orange-400 mr-3">⏰</span>
-                <span className="text-white/70">Mon-Fri: 9AM - 5PM</span>
+                <span className="text-white/70">Lun-Vie: 9AM - 5PM</span>
               </li>
             </ul>
           </div>
@@ -105,12 +108,12 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/70 text-sm mb-4 md:mb-0">
-              © 2025 freeclick LLC. All rights reserved.
+              © 2025 Hydra Marketing. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Cookie Policy</a>
+              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Política de Privacidad</a>
+              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Términos de Servicio</a>
+              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Política de Cookies</a>
             </div>
           </div>
         </div>
