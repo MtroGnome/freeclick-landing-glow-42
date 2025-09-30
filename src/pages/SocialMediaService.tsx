@@ -41,7 +41,7 @@ const SocialMediaService: React.FC = () => {
               engagement auténtico con tu audiencia.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, desarrollamos estrategias de redes sociales que van más allá de los "me gusta". 
+              En Hydra Email Marketing, desarrollamos estrategias de redes sociales que van más allá de los "me gusta". 
               Creamos presencias digitales que generan resultados medibles para tu negocio.
             </p>
           </section>

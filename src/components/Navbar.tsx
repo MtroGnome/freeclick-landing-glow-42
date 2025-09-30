@@ -32,9 +32,9 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="flex items-center space-x-2">
-            <img src="/hydra-logo.png" alt="Hydra Marketing" className="h-8 w-auto" />
+            <img src="/hydra-logo.png" alt="Hydra Email Marketing" className="h-8 w-auto" />
             <span className="text-2xl font-bold text-blue-900">
-              <span className="text-orange-500">Hydra</span> Marketing
+              <span className="text-orange-500">Hydra</span> Email Marketing
             </span>
           </a>
         </div>

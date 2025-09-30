@@ -41,7 +41,7 @@ const PpcService: React.FC = () => {
               puedes generar leads calificados y ventas desde el primer día.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, gestionamos campañas PPC que maximizan tu ROI a través de targeting 
+              En Hydra Email Marketing, gestionamos campañas PPC que maximizan tu ROI a través de targeting 
               preciso, creatividades optimizadas y monitoreo continuo del rendimiento.
             </p>
           </section>

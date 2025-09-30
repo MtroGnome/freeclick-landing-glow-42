@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
-              Eleva tu Presencia Digital con <span className="text-orange-500">Hydra</span> Marketing
+              Eleva tu Presencia Digital con <span className="text-orange-500">Hydra</span> Email Marketing
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               Soluciones de marketing estratégico para potenciar la visibilidad de tu marca, involucrar a tu audiencia y generar conversiones.

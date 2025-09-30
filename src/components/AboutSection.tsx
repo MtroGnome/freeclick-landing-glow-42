@@ -19,7 +19,7 @@ const AboutSection: React.FC = () => {
                 <div className="bg-gradient-to-br from-blue-400/30 to-blue-900/30 rounded-lg overflow-hidden aspect-video">
                   {/* This would be a real image in production */}
                   <div className="h-full w-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-xl">
-                    Hydra Marketing Team
+                    Hydra Email Marketing Team
                   </div>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const AboutSection: React.FC = () => {
             </h2>
             
             <p className="text-gray-700 mb-6 reveal">
-              Hydra Marketing es una agencia de marketing digital de servicio completo dedicada a ayudar a las empresas a prosperar 
+              Hydra Email Marketing es una agencia de marketing digital de servicio completo dedicada a ayudar a las empresas a prosperar 
               en el panorama digital. Combinamos pensamiento estratégico, excelencia creativa y metodologías basadas en datos 
               para crear soluciones de marketing que generen resultados tangibles.
             </p>

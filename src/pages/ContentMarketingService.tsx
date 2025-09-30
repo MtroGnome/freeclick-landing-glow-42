@@ -41,7 +41,7 @@ const ContentMarketingService: React.FC = () => {
               y en última instancia, para impulsar acciones rentables del cliente.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, creamos contenido que no solo informa, sino que también establece tu 
+              En Hydra Email Marketing, creamos contenido que no solo informa, sino que también establece tu 
               marca como una autoridad en tu industria, genera confianza y guía a tus prospectos a través 
               del embudo de ventas.
             </p>

@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
           {/* Company info */}
           <div>
             <div className="flex items-center mb-6">
-              <img src="/hydra-logo.png" alt="Hydra Marketing" className="h-8 w-auto mr-2" />
+              <img src="/hydra-logo.png" alt="Hydra Email Marketing" className="h-8 w-auto mr-2" />
               <h2 className="text-2xl font-bold">
-                <span className="text-orange-500">Hydra</span> Marketing
+                <span className="text-orange-500">Hydra</span> Email Marketing
               </h2>
             </div>
             <p className="text-white/70 mb-6">
@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/70 text-sm mb-4 md:mb-0">
-              © 2025 Hydra Marketing. Todos los derechos reservados.
+              © 2025 Hydra Email Marketing. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Política de Privacidad</a>

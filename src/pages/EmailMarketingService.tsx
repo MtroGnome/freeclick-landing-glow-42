@@ -41,7 +41,7 @@ const EmailMarketingService: React.FC = () => {
               de enviar emails masivos, sino de crear comunicaciones personalizadas y relevantes.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, diseñamos campañas de email marketing que nutren leads, mantienen 
+              En Hydra Email Marketing, diseñamos campañas de email marketing que nutren leads, mantienen 
               a los clientes comprometidos y generan ventas recurrentes a través de mensajes 
               estratégicamente diseñados.
             </p>

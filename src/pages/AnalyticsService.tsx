@@ -41,7 +41,7 @@ const AnalyticsService: React.FC = () => {
               y dónde invertir tu presupuesto para obtener el mejor ROI.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, transformamos números en insights accionables. Configuramos 
+              En Hydra Email Marketing, transformamos números en insights accionables. Configuramos 
               sistemas de tracking completos, creamos dashboards personalizados y proporcionamos 
               reportes que realmente ayudan a tomar decisiones estratégicas.
             </p>

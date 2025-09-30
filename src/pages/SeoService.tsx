@@ -41,7 +41,7 @@ const SeoService: React.FC = () => {
               atraer a las personas adecuadas que están buscando exactamente lo que ofreces.
             </p>
             <p className="text-lg text-gray-600">
-              En Hydra Marketing, utilizamos técnicas avanzadas de SEO basadas en datos para aumentar tu 
+              En Hydra Email Marketing, utilizamos técnicas avanzadas de SEO basadas en datos para aumentar tu 
               posicionamiento orgánico, generar más leads calificados y hacer crecer tu negocio de manera sostenible.
             </p>
           </section>
